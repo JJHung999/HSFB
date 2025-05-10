@@ -6,6 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     private bool stickToPlayer;
     public GameObject myObject;
+    Player scriptPlayer;
 
     [SerializeField] private Transform transformPlayer;
     [SerializeField] private Transform playerBallPosition;
